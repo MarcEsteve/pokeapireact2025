@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+h1 {
+  text-align: center;
+}
