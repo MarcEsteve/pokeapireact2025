@@ -3,7 +3,7 @@ import { usePokemons } from './hooks/usePokemons';
 import { PokemonCard } from './components/PokemonCard';
 import './global.css';
 
-const tipos = ['all', 'fire', 'grass', 'water', 'flying'];
+const tipos = ['all', 'fire', 'grass', 'water', 'flying','poison'];
 
 function App() {
   const { pokemons } = usePokemons();
